@@ -1,0 +1,108 @@
+/* Dark Mode */
+body.dark {
+  background-color: $bg-black-dark;
+
+  .sidebar {
+    background: $bg-black-100-dark;
+    border-right: 1px solid $bg-black-50-dark;
+    box-shadow: rgba(255, 255, 255, 0.1) -8px -8px 16px inset,
+      rgba(0, 0, 0, 0.3) 8px 8px 16px inset;
+
+    .logo a {
+      color: $white;
+    }
+
+    .nav li a {
+      color: $text-black-700-dark;
+
+      &.active {
+        color: $skin-color;
+      }
+
+      &:hover {
+        color: $skin-color;
+      }
+    }
+  }
+
+  .section {
+    background: $bg-black-dark;
+
+    .container {
+      padding-top: 60px;
+      padding-bottom: 70px;
+    }
+  }
+
+  .home .home-info h3 {
+    color: $text-black-900-dark;
+  }
+
+  .home .home-info p {
+    color: $text-black-700-dark;
+  }
+
+  .about .about-content .about-text h3 {
+    color: $text-black-900-dark;
+  }
+
+  .about .about-content .about-text p {
+    color: $text-black-700-dark;
+  }
+
+  .about .about-content .personal-info .info-item p {
+    color: $text-black-900-dark;
+    border-bottom: 1px solid $bg-black-50-dark;
+
+    span {
+      color: $text-black-700-dark;
+    }
+  }
+
+  .about .about-content .skills .skill-item h5 {
+    color: $text-black-900-dark;
+  }
+
+  .about .about-content .skills .skill-item .progress {
+    background-color: $bg-black-50-dark;
+  }
+
+  .service .service-item .service-item-inner {
+    background-color: $bg-black-100-dark;
+    border: 1px solid $bg-black-50-dark;
+
+    h4 {
+      color: $text-black-900-dark;
+    }
+
+    p {
+      color: $text-black-700-dark;
+    }
+  }
+
+  .portfolio .portfolio-heading h2 {
+    color: $text-black-900-dark;
+  }
+
+  .portfolio .portfolio-item .portfolio-item-inner {
+    border: 6px solid $bg-black-100-dark;
+  }
+
+  .contact-sub-title {
+    color: $text-black-900-dark;
+  }
+
+  .contact-info-item h4 {
+    color: $text-black-900-dark;
+  }
+
+  .contact-info-item p {
+    color: $text-black-700-dark;
+  }
+
+  .contact-form .form-item .form-control {
+    background: $bg-black-100-dark;
+    border: 1px solid $bg-black-50-dark;
+    color: $text-black-700-dark;
+  }
+}

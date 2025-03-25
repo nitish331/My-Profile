@@ -1,0 +1,94 @@
+/* Home */
+.home.section {
+  display: flex;
+}
+.home {
+  min-height: 100vh;
+  display: flex;
+  color: $text-black-900;
+  align-items: center;
+
+  .home-info {
+    flex: 0 0 60%;
+    max-width: 60%;
+
+    h3.hello {
+      font-size: 28px;
+      margin: 15px 0;
+
+      span {
+        font-family: "Clicker Script", cursive;
+        font-size: 30px;
+        font-weight: 700;
+        color: $skin-color;
+      }
+    }
+
+    h3.my-profession {
+      font-size: 30px;
+      margin: 15px 0;
+
+      span {
+        color: $skin-color;
+      }
+    }
+
+    p {
+      margin-bottom: 70px;
+      font-size: 16px;
+      line-height: 25px;
+      color: $text-black-700;
+    }
+
+    .btn {
+      font-size: 16px;
+      font-weight: 500;
+      padding: 12px 35px;
+      color: $white;
+      border-radius: 40px;
+      display: inline-block;
+      white-space: nowrap;
+      background: $skin-color;
+      @include transition();
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .home-img {
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      border-bottom: 10px solid $skin-color;
+      border-right: 10px solid $skin-color;
+      right: 20px;
+      bottom: -40px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      border-top: 10px solid $skin-color;
+      border-left: 10px solid $skin-color;
+      left: 20px;
+      top: -40px;
+    }
+
+    img {
+      margin: auto;
+      border-radius: 5px;
+      height: 400px;
+    }
+  }
+}

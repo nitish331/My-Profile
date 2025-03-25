@@ -1,0 +1,57 @@
+// Colors
+$primary-color: #ec1839;
+$skin-color: var(--skin-color, #ec1839);
+$secondary-color: #fa5b0f;
+$white: #ffffff;
+$section-white: #f0f8ff;
+$black: #000000;
+$bg-black: #151515;
+$bg-black-100: #222222;
+$bg-black-50: #393939;
+$bg-black-900: #151515;
+$text-black-900: #302e4d;
+$text-black-700: #504e70;
+
+// Color skins
+:root {
+  $skin-color: $primary-color;
+}
+$skin-color-2: #fa5b0f;
+$skin-color-3: #37b182;
+$skin-color-4: #1854b4;
+$skin-color-5: #f021b2;
+
+// Typography
+$font-family: "Poppins", sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+// Spacing
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// Borders
+$border-radius: 4px;
+$border-width: 1px;
+
+// Transitions
+$transition-base: all 0.3s ease;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Z-index
+$z-index-sidebar: 1000;
+$z-index-modal: 1050;
+
+// Dark mode variables
+$bg-black-dark: #151515;
+$bg-black-100-dark: #222222;
+$bg-black-50-dark: #393939;
+$text-black-900-dark: #ffffff;
+$text-black-700-dark: #e9e9e9;

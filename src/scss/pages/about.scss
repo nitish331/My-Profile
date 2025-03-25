@@ -1,0 +1,125 @@
+/* About */
+.about {
+  .about-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    .about-text {
+      flex: 0 0 100%;
+      max-width: 100%;
+
+      h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        font-weight: 700;
+        color: $text-black-900;
+
+        span {
+          color: $skin-color;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        color: $text-black-700;
+      }
+    }
+  }
+
+  .personal-info {
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin-top: 40px;
+
+    .info-item {
+      flex: 0 0 50%;
+      max-width: 50%;
+
+      a {
+        color: $skin-color;
+      }
+
+      p {
+        font-weight: 600;
+        padding: 10px 0;
+        font-size: 16px;
+        color: $text-black-900;
+        border-bottom: 1px solid $bg-black-50;
+
+        span {
+          font-weight: 400;
+          color: $text-black-700;
+          margin-left: 4px;
+          display: inline-block;
+        }
+      }
+    }
+
+    .buttons {
+      margin-top: 30px;
+
+      .btn {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 12px 35px;
+        color: $white;
+        border-radius: 40px;
+        display: inline-block;
+        white-space: nowrap;
+        background: $skin-color;
+        @include transition();
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+
+  .skills {
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+
+    .skill-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 25px;
+
+      h5 {
+        line-height: 40px;
+        font-weight: 600;
+        font-size: 16px;
+        color: $text-black-900;
+        text-transform: capitalize;
+      }
+
+      .progress {
+        background-color: $bg-black-50;
+        height: 7px;
+        border-radius: 4px;
+        width: 100%;
+        position: relative;
+
+        .progress-in {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          border-radius: 4px;
+          background-color: $skin-color;
+        }
+
+        .skill-percent {
+          position: absolute;
+          right: 0;
+          color: $text-black-900;
+          top: -40px;
+          font-weight: 400;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+}

@@ -160,3 +160,10 @@ ul {
   margin-right: -15px;
   position: relative;
 }
+
+@media (max-width: 1199px) {
+  .section {
+    min-width: 100vw;
+    left: 0;
+  }
+}
